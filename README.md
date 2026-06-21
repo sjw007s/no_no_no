@@ -27,5 +27,6 @@ This paper questions the three propositions that have effectively functioned as 
 | **ImageNet**    | -            | In Progress            | Currently experimenting |
 
 # History
-1. The first GitHub repository was made public on June 21, 2026, and it contains content that I personally researched using my own personal funds.
-2. Approximately $1,000 was spent on electricity costs for this research.
+1. The first GitHub repository was made public on June 21, 2026
+2. It contains content that I personally researched using my own personal funds.
+3. Approximately $1,000 was spent on electricity costs for this research.
