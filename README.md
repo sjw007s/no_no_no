@@ -6,9 +6,12 @@ LinkedIn: [Link](https://www.linkedin.com/in/jongwoo-seo/)
 Personal Website: [Link](https://sites.google.com/view/jongwooseo/)  
 CV: [Link](https://sites.google.com/view/jongwooseo/cv?authuser=0)  
 Google Scholar: [Link](https://scholar.google.co.kr/citations?hl=en&user=ikhaAuoAAAAJ)  
-Github: [Link](https://github.com/sjw007s/Deep-Learning-with-No-Activation-Functions-No-Residual-Connections-and-No-Normalization-Layers)  
+Github: [Link](https://github.com/sjw007s/no_no_no)  
 Nationality: South Korean  
 Contact: jongw92@gmail.com, sjw007s@korea.ac.kr  
+Featured papers:  
+(1) Remove 3 axioms in AI, [Deep Learning with No Activation Functions, No Residual Connections, and No Normalization Layers](https://github.com/sjw007s/no_no_no)  
+(2) Refute a textbook claim in AI, [Deep Learning with Zero Initialization: Revisiting Symmetry Breaking and Gradient Flow](https://github.com/sjw007s/Deep-Learning-with-Zero-Initialization-Revisiting-Symmetry-Breaking-and-Gradient-Flow)  
 
 📢📢📢  
 1. Seeking PhD positions and industry opportunities — email me.  
