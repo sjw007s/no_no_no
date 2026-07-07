@@ -24,7 +24,7 @@ Featured papers:
 This paper questions the three propositions that have effectively functioned as practical axioms in deep learning and tries to deprive them of their axiomatic status. In this paper, I propose the Jongwoo block, which uses no activation functions, no residual connections, and no normalization layers. Using networks composed of these blocks, I demonstrate performance superior to ResNet on CIFAR-10.
 
 # Results
-| Dataset     | Resnet Accuracy [1]   | Jongwoo block Accuracy     | Status                  | Data preprocessing                  |
+| Dataset     | ResNet accuracy [1]   | Jongwoo block accuracy     | Status                  | Data preprocessing                  |
 |:-------------:|:--------------:|:--------------:|:-------------------------:|:------------------------:|
 | **CIFAR-10**    | 93.39% (Best 93.57%)     | 93.96% (Best 94.20%)   | Completed              | Nearly identical to [1]                      |
 | **ImageNet**    | -            | -            | In Progress            | Currently experimenting |
