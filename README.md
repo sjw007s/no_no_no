@@ -14,7 +14,7 @@ Featured papers:
 (2) Refute a textbook claim in AI, [Deep Learning with Zero Initialization: Revisiting Symmetry Breaking and Gradient Flow](https://github.com/sjw007s/Deep-Learning-with-Zero-Initialization-Revisiting-Symmetry-Breaking-and-Gradient-Flow)  
 
 📢📢📢  
-1. Seeking PhD positions and industry opportunities — email me.  
+1. Seeking academic positions and industry opportunities — email me.  
 
 2. A draft of the paper will soon be made publicly available on arXiv.
 
