@@ -54,7 +54,7 @@ This paper questions the three propositions that have effectively functioned as 
 | ResNet-152 |  NA |11.3 GFLOPs| 78.57% |94.29%|
 | CNN enhanced with the Jongwoo Block | In Progress |In Progress| In Progress | In Progress |
 
-† All ResNet results are from [1]. The number of parameters was calculated using the ptflops library (v0.7.5) for the models implemented in TorchVision.
+† All ResNet results are from [1]. All results are reported using 10-crop testing. The number of parameters was calculated using the ptflops library (v0.7.5) for the models implemented in TorchVision.
 
 # History
 1. The first GitHub repository was made public on July 7, 2026
