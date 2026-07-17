@@ -26,10 +26,23 @@ Featured papers:
 This paper questions the three propositions that have effectively functioned as practical axioms in deep learning and tries to deprive them of their axiomatic status. In this paper, I propose the Jongwoo block, which uses no activation functions, no residual connections, and no normalization layers. Using networks composed of these blocks, I demonstrate performance superior to ResNet on CIFAR-10.
 
 # Results
-| Dataset     | ResNet accuracy [1]   | Jongwoo block accuracy     | Status                  | Data preprocessing                  |
-|:-------------:|:--------------:|:--------------:|:-------------------------:|:------------------------:|
-| **CIFAR-10**    | 93.39% (Best 93.57%)     | 93.96% (Best 94.20%)   | Completed              | Nearly identical to [1]                      |
-| **ImageNet**    | -            | -            | In Progress            | Currently experimenting |
+## CIFAR-10
+| Model | # Params | # Flops | Test Accuracy |
+|:------:|:---------:|:---------:|:--------------:|
+| ResNet-20 | 0.27M |NA| 91.25% |
+| ResNet-32 |  0.46M |NA| 92.49% |
+| ResNet-44 |  0.66M |NA| 92.83% |
+| ResNet-56 |  0.85M |NA| 93.03% |
+| ResNet-110 |  1.7M |NA| 93.57% (93.39±0.16) |
+| ResNet-1202 |  19.4M |NA| 92.07% |
+| CNN enhanced with the Jongwoo Block | In Progress |In Progress| In Progress |
+| CNN enhanced with the Jongwoo Block | In Progress |In Progress| In Progress |
+| CNN enhanced with the Jongwoo Block | In Progress |In Progress| In Progress |
+| CNN enhanced with the Jongwoo Block | In Progress |In Progress| In Progress |
+| CNN enhanced with the Jongwoo Block | In Progress |In Progress| In Progress |
+| CNN enhanced with the Jongwoo Block | 25.35M |9.6 GFLOPs| 94.20% (93.96±0.12) |
+
+† All ResNet results are from [1]. I reproduced the training setup using nearly identical preprocessing and data augmentation. No additional training tricks (e.g., Mixup, CutMix, Label Smoothing) were applied. I ran the new algorithm 10 times and show "best (mean±std)." Model complexity was measured using ptflops (version 0.7.5). Since ptflops reports computational complexity in MACs, the reported values were multiplied by two and converted to FLOPs (1 MAC = 2 FLOPs).
 
 # History
 1. The first GitHub repository was made public on July 7, 2026
