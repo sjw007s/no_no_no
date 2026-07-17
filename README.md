@@ -27,7 +27,7 @@ This paper questions the three propositions that have effectively functioned as 
 
 # Results
 ## CIFAR-10
-| Model | # Params | # Flops | Test Accuracy |
+| Model | # Params | # FLOPs | Test Accuracy |
 |:------:|:---------:|:---------:|:--------------:|
 | ResNet-20 | 0.27M |NA| 91.25% |
 | ResNet-32 |  0.46M |NA| 92.49% |
