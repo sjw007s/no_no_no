@@ -42,7 +42,19 @@ This paper questions the three propositions that have effectively functioned as 
 | CNN enhanced with the Jongwoo Block | In Progress |In Progress| In Progress |
 | CNN enhanced with the Jongwoo Block | 25.35M |9.6 GFLOPs| 94.20% (93.96±0.12) |
 
-† All ResNet results are from [1]. I reproduced the training setup using nearly identical preprocessing and data augmentation. No additional training tricks (e.g., Mixup, CutMix, Label Smoothing) were applied. I ran the new algorithm 10 times and show "best (mean±std)." Model complexity was measured using ptflops (version 0.7.5). Since ptflops reports computational complexity in MACs, the reported values were multiplied by two and converted to FLOPs (1 MAC = 2 FLOPs).
+† All ResNet results are from [1]. I reproduced the training setup using nearly identical preprocessing and data augmentation. No additional training tricks (e.g., Mixup, CutMix, Label Smoothing) were applied. I ran the new algorithm 10 times and showed "best (mean±std)." Model complexity was measured using ptflops (version 0.7.5). Since ptflops reports computational complexity in MACs, the reported values were multiplied by two and converted to FLOPs (1 MAC = 2 FLOPs).
+
+## Imagenet-1K
+| Model | # Params | # FLOPs | Top 1 Accuracy | Top 5 Accuracy
+|:------:|:---------:|:---------:|:--------------:|:--------------:|
+| ResNet-18 | 11.69M |1.8 GFLOPs| 72.12% |NA|
+| ResNet-34 | NA |3.6 GFLOPs| 75.48% |92.54%|
+| ResNet-50 |  25.56M |3.8 GFLOPs| 77.15%  |93.29%|
+| ResNet-101 |  NA |7.6 GFLOPs| 78.25% |93.95%|
+| ResNet-152 |  NA |11.3 GFLOPs| 78.57% |94.29%|
+| CNN enhanced with the Jongwoo Block | In Progress |In Progress| In Progress | In Progress |
+
+† All ResNet results are from [1]. The number of parameters was calculated using the ptflops library (v0.7.5) for the models implemented in TorchVision.
 
 # History
 1. The first GitHub repository was made public on July 7, 2026
