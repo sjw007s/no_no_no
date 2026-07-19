@@ -41,6 +41,7 @@ This paper questions the three propositions that have effectively functioned as 
 | CNN with Jongwoo block | 0.83 |0.32| 87.85 (87.65±0.14) |
 | CNN with Jongwoo block | In Progress |In Progress| In Progress |
 | CNN with Jongwoo block | 25.35 |9.6| 94.20 (93.96±0.12) |
+| ViT with Jongwoo block | In Progress |In Progress| In Progress |
 
 † All ResNet results are from [1]. I reproduced the training setup using nearly identical preprocessing and data augmentation. No additional training tricks (e.g., Mixup, CutMix, Label Smoothing) were applied. I ran the new algorithm 10 times and showed "best (mean±std)." Model complexity was measured using ptflops (version 0.7.5). Since ptflops reports computational complexity in MACs, the reported values were multiplied by two and converted to FLOPs (1 MAC = 2 FLOPs).
 
