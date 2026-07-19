@@ -27,20 +27,20 @@ This paper questions the three propositions that have effectively functioned as 
 
 # Results
 ## CIFAR-10
-| Model | # Params | # FLOPs | Test Accuracy |
+| Model | # Params (M) | # GFLOPs | Test Accuracy |
 |:------:|:---------:|:---------:|:--------------:|
-| ResNet-20 | 0.27M |NA| 91.25% |
-| ResNet-32 |  0.46M |NA| 92.49% |
-| ResNet-44 |  0.66M |NA| 92.83% |
-| ResNet-56 |  0.85M |NA| 93.03% |
-| ResNet-110 |  1.7M |NA| 93.57% (93.39±0.16) |
-| ResNet-1202 |  19.4M |NA| 92.07% |
-| CNN enhanced with the Jongwoo Block | In Progress |In Progress| In Progress |
-| CNN enhanced with the Jongwoo Block | In Progress |In Progress| In Progress |
-| CNN enhanced with the Jongwoo Block | In Progress |In Progress| In Progress |
-| CNN enhanced with the Jongwoo Block | In Progress |In Progress| In Progress |
-| CNN enhanced with the Jongwoo Block | In Progress |In Progress| In Progress |
-| CNN enhanced with the Jongwoo Block | 25.35M |9.6 GFLOPs| 94.20% (93.96±0.12) |
+| ResNet-20 | 0.27 |NA| 91.25% |
+| ResNet-32 |  0.46 |NA| 92.49% |
+| ResNet-44 |  0.66 |NA| 92.83% |
+| ResNet-56 |  0.85 |NA| 93.03% |
+| ResNet-110 |  1.7 |NA| 93.57% (93.39±0.16) |
+| ResNet-1202 |  19.4 |NA| 92.07% |
+| CNN with Jongwoo block | In Progress |In Progress| In Progress |
+| CNN with Jongwoo block | In Progress |In Progress| In Progress |
+| CNN with Jongwoo block | 0.50 |0.19| 86.10 (85.55±0.32) |
+| CNN with Jongwoo block | 0.83 |0.32| 87.85 (87.65±0.14) |
+| CNN with Jongwoo block | In Progress |In Progress| In Progress |
+| CNN with Jongwoo block | 25.35 |9.6| 94.20% (93.96±0.12) |
 
 † All ResNet results are from [1]. I reproduced the training setup using nearly identical preprocessing and data augmentation. No additional training tricks (e.g., Mixup, CutMix, Label Smoothing) were applied. I ran the new algorithm 10 times and showed "best (mean±std)." Model complexity was measured using ptflops (version 0.7.5). Since ptflops reports computational complexity in MACs, the reported values were multiplied by two and converted to FLOPs (1 MAC = 2 FLOPs).
 
@@ -52,7 +52,7 @@ This paper questions the three propositions that have effectively functioned as 
 | ResNet-50 |  25.56M |3.8 GFLOPs| 77.15%  |93.29%|
 | ResNet-101 |  NA |7.6 GFLOPs| 78.25% |93.95%|
 | ResNet-152 |  NA |11.3 GFLOPs| 78.57% |94.29%|
-| CNN enhanced with the Jongwoo Block | In Progress |In Progress| In Progress | In Progress |
+| CNN with Jongwoo block | In Progress |In Progress| In Progress | In Progress |
 
 † All ResNet results are from [1]. All results are reported using 10-crop testing. The number of parameters was calculated using the ptflops library (v0.7.5) for the models implemented in TorchVision.
 
