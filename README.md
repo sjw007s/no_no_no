@@ -27,8 +27,8 @@ This paper questions the three propositions that have effectively functioned as 
 
 # Results
 ## CIFAR-10
-| Model | # Params (M) | # GFLOPs | Test Accuracy (%) |
-|:------:|:---------:|:---------:|:--------------:|
+| Model | # Params (M) | # GFLOPs | Test Accuracy (%) ||
+|:------:|:---------:|:---------:|:--------------:|:--------------:|
 | ResNet-20 | 0.27 |NA| 91.25 |
 | ResNet-32 |  0.46 |NA| 92.49 |
 | ResNet-44 |  0.66 |NA| 92.83 |
@@ -40,8 +40,8 @@ This paper questions the three propositions that have effectively functioned as 
 | CNN with Jongwoo block | 0.65 |0.25| 87.25 (86.80±0.26) |
 | CNN with Jongwoo block | 0.83 |0.32| 87.85 (87.65±0.14) |
 | CNN with Jongwoo block | 1.72 |0.66| 90.46 (90.13±0.21) |
-| CNN with Jongwoo block | 19.3 |7.30| 94.16 (93.89±0.18) |
-| CNN with Jongwoo block | 25.35 |9.6| 94.20 (93.96±0.12) |
+| CNN with Jongwoo block | 19.3 |7.30| 94.16 (93.89±0.18) |🚀|
+| CNN with Jongwoo block | 25.35 |9.6| 94.20 (93.96±0.12) |🚀|
 | CNN with Jongwoo block | In Progress |In Progress| In Progress |
 | CNN with Jongwoo block | 65.00 |In Progress| In Progress |
 | ViT baseline | 30 |3.97| 87.36 (86.84±0.34) |
