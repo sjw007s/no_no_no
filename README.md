@@ -42,8 +42,8 @@ This paper questions the three propositions that have effectively functioned as 
 | CNN with Jongwoo block | 1.72 |0.66| 90.46 (90.13±0.21) |
 | CNN with Jongwoo block | 19.3 |7.30| 94.16 (93.89±0.18) |🚀🚀|
 | CNN with Jongwoo block | 25.35 |9.6| 94.20 (93.96±0.12) |🚀🚀🚀|
-| CNN with Jongwoo block | In Progress |In Progress| In Progress |
-| CNN with Jongwoo block | 65.00 |In Progress| In Progress |
+| CNN with Jongwoo block | 36.50 |In Progress| In Progress |
+| CNN with Jongwoo block | 65.00 |24.52| 94.09 (92.86±1.22) |
 | ViT baseline | 30 |3.97| 87.36 (86.84±0.34) |
 | ViT with Jongwoo block | In Progress |In Progress| In Progress |
 
