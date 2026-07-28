@@ -64,7 +64,7 @@ This paper questions the three propositions that have effectively functioned as 
 # History
 1. The first GitHub repository was made public on July 7, 2026
 2. It contains content that I personally researched using my own personal funds.
-3. Approximately $2,000 was spent on electricity costs for this research.
+3. Approximately $2,000 was spent on computational costs for this research.
 
 # References
 [1] He, Kaiming, et al. "Deep residual learning for image recognition." Proceedings of the IEEE conference on computer vision and pattern recognition. 2016.
