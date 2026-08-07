@@ -57,9 +57,12 @@ This paper questions the three propositions that have effectively functioned as 
 | ResNet-50 |  25.56 |3.8| 77.15  |93.29|
 | ResNet-101 |  NA |7.6| 78.25 |93.95|
 | ResNet-152 |  NA |11.3| 78.57 |94.29|
+| CNN with Jongwoo block | 23.44 |43.94| 68.62 | 88.19 |
+| CNN with Jongwoo block | 60.25 |56.56| In Progress | In Progress |
+| CNN with Jongwoo block | In Progress |In Progress| In Progress | In Progress |
 | CNN with Jongwoo block | In Progress |In Progress| In Progress | In Progress |
 
-† All ResNet results are from [1]. All results are reported using 10-crop testing. The number of parameters was calculated using the ptflops library (v0.7.5) for the models implemented in TorchVision.
+† All ResNet results are from [1]. All results are reported using 10-crop testing. The number of parameters was calculated using the ptflops library (v0.7.5) for the models implemented in TorchVision. The results for the Jongwoo block are based on a single experimental run. Additional experiments will be conducted in future work.
 
 # History
 1. The first GitHub repository was made public on July 7, 2026
